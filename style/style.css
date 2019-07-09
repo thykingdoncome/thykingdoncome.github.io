@@ -241,7 +241,7 @@ nav ul li {
 
 .sci {
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
     text-decoration: none;
 }
 
@@ -328,4 +328,64 @@ nav ul li {
     100% {
         transform: scaleX(1);
     }
+}
+
+/* Projects.html style */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.project-top {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+
+.divsec {
+    border-bottom: 1px dashed black;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.divsec a {
+    text-decoration: none;
+    color: #000;
+    border: 2px solid black;
+    padding: 0 1.3rem;
+    border-radius: 4px;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+    transition: 1s;
+    font-size: 1em;
+}
+
+.divsec a:hover {
+    background: grey;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(16, 220, 247);
+    box-shadow: none;
+}
+
+
+.notIndex nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.notIndex .logo2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.notIndex ul li a.active,
+.notIndex ul li a:hover {
+    background: #000;
+    color: #fff;
+    padding: 2px 0;
+    transition: 0.5s;
 }
