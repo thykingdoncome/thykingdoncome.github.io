@@ -4,6 +4,10 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
+const footer = document.querySelector("#main-footer");
+const date = new Date().getFullYear();
+const copyRight = `&copy ${date}`;
+footer.innerHTML = copyRight;
 
 // Set Initial State Of Menu
 let showMenu = false;
